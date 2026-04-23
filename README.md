@@ -1,1 +1,1 @@
-# Interaktive Shiny-App für das DBU-Projekt 38150-01 'PlanED - Entwicklung und Anwendung digitaler Planungswerkzeuge für ökologische Aufwertungsmaßnahmen von Eh da-Flächen auf Landschaftsebene am Beispiel einer Modellregion'
+Interaktive Shiny-App für das DBU-Projekt 38150-01 'PlanED - Entwicklung und Anwendung digitaler Planungswerkzeuge für ökologische Aufwertungsmaßnahmen von Eh da-Flächen auf Landschaftsebene am Beispiel einer Modellregion'
