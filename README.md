@@ -1,11 +1,10 @@
-### Projektkontext
 Dieses Repository enthält das Software-Framework, die Input-Daten sowie den R-Code für eine interaktive Shiny-Webanwendung, die im Rahmen des DBU-Projekts 38150-01 entwickelt wurde:
 
 ## **PlanED – Entwicklung und Anwendung digitaler Planungswerkzeuge für ökologische Aufwertungsmaßnahmen von 'Eh da'-Flächen auf Landschaftsebene am Beispiel einer Modellregion**
 
 Interaktive Shiny-Webanwendung zur Unterstüzung von Planungsprozessen zur ökologischen Aufwertung von 'Eh da'-Flächen (Identifikation, Analyse & Priorisierung) auf Landschaftsebene in einer hessischen Modellregion, bestehend aus den Städten Homberg (Ohm) und Kirtorf.
 
-## Hintergrund
+## Projektkontext
 
 Aufgrund des Insektenrückgangs in Deutschland rücken verfügbare Flächen als zentrale Ressource für den Insektenschutz in den Fokus, da sie ein bislang wenig genutztes Potenzial zur gezielten Schaffung und Vernetzung von Lebensräumen auf Landschaftsebene bieten. Sogenannte 'Eh da'-Flächen – meist kommunale, wirtschaftlich und naturschutzfachlich ungenutzte Flächen – sind hierfür besonders geeignet, und wurden auf Basis amtlicher Geodaten für die Modellregion identifiziert.
 
@@ -28,22 +27,22 @@ Die Webanwendung wurde in der hessischen Modellregion erprobt, in der ausgewähl
 Für Anregungen oder weiterführende Informationen kontaktieren Sie bitte:
 
 Dr. Lucas Streib \
-Diplom-Umweltwissenschaftler\
+Diplom-Umweltwissenschaftler 
 
-&#9993; lucas.streib@dlr.rlp.de\
-&#9990; +49 (0) 06321 671 443\
+&#9993; lucas.streib@dlr.rlp.de \
+&#9990; +49 (0) 06321 671 443 
 
-DIENSTLEISTUNGSZENTRUM LÄNDLICHER RAUM (DLR) RHEINHESSEN-NAHE-HUNSRÜCK\
-Technische Zentralstelle - Gruppe Digitalisierung\
+DIENSTLEISTUNGSZENTRUM LÄNDLICHER RAUM (DLR) RHEINHESSEN-NAHE-HUNSRÜCK \
+Technische Zentralstelle - Gruppe Digitalisierung 
 
-Zentrale Postanschrift:\
-Postfach 573\
-55529 Bad Kreuznach\
+Zentrale Postanschrift: \
+Postfach 573 \
+55529 Bad Kreuznach 
 
-Hausanschrift:\
-67435 Neustadt\
-Telefon: 06321 671-0\
-E-Mail: dlr-rnh@dlr.rlp.de\
+Hausanschrift: \
+67435 Neustadt \
+Telefon: 06321 671-0 \
+E-Mail: dlr-rnh@dlr.rlp.de \
 Internet: http://www.dlr-rnh.rlp.de
 
 
