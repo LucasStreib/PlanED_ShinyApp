@@ -3,22 +3,19 @@ Dieses Repository enthält das Software-Framework, die Input-Daten sowie den R-C
 
 ## **PlanED – Entwicklung und Anwendung digitaler Planungswerkzeuge für ökologische Aufwertungsmaßnahmen von 'Eh da'-Flächen auf Landschaftsebene am Beispiel einer Modellregion**
 
-Die Webanwendung unterstützt Planungsprozesse zur ökologischen Aufwertung von 'Eh da'-Flächen auf Landschaftsebene in einer hessischen Modellregion, bestehend aus den Städten Homberg (Ohm) und Kirtorf.
+Interaktive Shiny-Webanwendung zur Unterstüzung von Planungsprozessen zur ökologischen Aufwertung von 'Eh da'-Flächen (Identifikation, Analyse & Priorisierung) auf Landschaftsebene in einer hessischen Modellregion, bestehend aus den Städten Homberg (Ohm) und Kirtorf.
 
 ## Hintergrund
 
-Aufgrund des Insektenrückgangs in Deutschland rücken verfügbare Flächen als zentrale Ressource für den Insektenschutz in den Fokus, da sie ein bislang wenig genutztes Potenzial zur gezielten Schaffung und Vernetzung von Lebensräumen auf Landschaftsebene bieten. Sogenannte „Eh da“-Flächen – meist kommunale, wirtschaftlich und naturschutzfachlich ungenutzte Flächen – sind hierfür besonders geeignet.
+Aufgrund des Insektenrückgangs in Deutschland rücken verfügbare Flächen als zentrale Ressource für den Insektenschutz in den Fokus, da sie ein bislang wenig genutztes Potenzial zur gezielten Schaffung und Vernetzung von Lebensräumen auf Landschaftsebene bieten. Sogenannte 'Eh da'-Flächen – meist kommunale, wirtschaftlich und naturschutzfachlich ungenutzte Flächen – sind hierfür besonders geeignet, und wurden auf Basis amtlicher Geodaten für die Modellregion identifiziert.
 
-Die entwickelte Webanwendung basiert auf dem Open-Source-Framework Shiny für die Programmiersprache R und folgt einem modularen Aufbau aus Textinhalten, interaktiven Karten und Tabellen. Sie integriert verschiedene R-Pakete (z. B. für WebGIS-Visualisierung) und stellt folgende Funktionen bereit:
+Die entwickelte Webanwendung basiert auf dem Open-Source-Framework Shiny für die Programmiersprache R und hat ein modulares Design mit Textinhalten, interaktiven Karten und Tabellen. Sie integriert verschiedene R-Pakete (z. B. für WebGIS-Visualisierung) und stellt folgende Funktionen bereit:
 
-- **Information:** Zentrale Plattform zur Bereitstellung fachlicher Inhalte  
-- **Visualisierung:** Interaktive Karten (WebGIS) verschiedener Fachdaten  
-- **Analyse:** Planungswerkzeuge zur On-the-fly-Berechnung von Netzwerken  
+- **Information:** Zentrale Plattform zur Bereitstellung fachlicher Inhalte, Informationen zum Projektverlauf  
+- **Visualisierung:** Interaktive Karten (WebGIS) zu Darstellung fachlicher im Projekt verwendeten Geodaten
+- **Analyse:** Planungswerkzeuge zur räumlichen Bewertung | Priorisierung von Potenzialflächen ('Eh da'-Flächen) für die ökologische Aufwertung über On-the-fly berechnete Netzwerke ('Luftlinien Distanz' oder 'Kosten Distanz' aus Landschaftsklassifikation)
 
-Die Planungswerkzeuge ermöglichen die räumliche Analyse sogenannter Potenzialflächen („Eh da“-Flächen), die auf Basis amtlicher Geodaten identifiziert werden. Ergänzend erfolgt eine Landschaftsklassifikation auf Grundlage von NDVI und nDOM, die fünf Landschaftsklassen unterscheidet. 
-
-Ziel ist es, Flächen hinsichtlich ihrer Bedeutung für die (Biotop-)Vernetzung zu bewerten, zu priorisieren und geeignete Maßnahmen zur ökologischen Aufwertung effizient zu planen. Die Anwendung wird in einer hessischen Modellregion erprobt, in der ausgewählte Maßnahmen umgesetzt und durch begleitende Erhebungen dokumentiert werden.
-Ergebnisse können in gängigen Geodatenformaten Datenformaten exportiert werden, wodurch die Konnektivität zu anderen Geodatenplattformen oder Datenbanken (z.B. von Naturschutz- oder Landwirtschaftsbehörden) gegeben ist. Das Webanwendung ist als Open-Source-Anwendung konzipiert, sodass eine Übertragbarkeit auf andere Kommunen gewährleistet ist. 
+Die Ergebnisse können in gängigen Geodatenformaten Datenformaten exportiert und in bestehende GIS-Systeme  (z.B. von Naturschutz- oder Landwirtschaftsbehörden) integriert werden. Die Webanwendung wurde in der hessischen Modellregion erprobt, in der ausgewählte Maßnahmen umgesetzt und durch begleitende Erhebungen dokumentiert wurden. Sie ist als Open-Source-Lösung auf andere Kommunen übertragbar.
 
 ### A. SOFTWARE-FRAMEWORK
 
