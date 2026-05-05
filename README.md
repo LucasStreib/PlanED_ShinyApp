@@ -1,9 +1,19 @@
 ### Projektkontext
 Dieses Repository enthält das Software-Framework, die Input-Daten sowie den R-Code für eine interaktive Shiny-Webanwendung, die im Rahmen des DBU-Projekts 38150-01 entwickelt wurde:
 
-## **PlanED – Entwicklung und Anwendung digitaler Planungswerkzeuge für ökologische Aufwertungsmaßnahmen von ‚Eh da‘-Flächen auf Landschaftsebene am Beispiel einer Modellregion**
+## **PlanED – Entwicklung und Anwendung digitaler Planungswerkzeuge für ökologische Aufwertungsmaßnahmen von 'Eh da'-Flächen auf Landschaftsebene am Beispiel einer Modellregion**
 
-Die Anwendung dient der Unterstützung von Planungsprozessen zur ökologischen Aufwertung von ‚Eh da‘-Flächen auf Landschaftsebene.
+Die Webanwendung unterstützt Planungsprozesse zur ökologischen Aufwertung von 'Eh da'-Flächen auf Landschaftsebene in einer hessischen Modellregion, bestehend aus den Städten Homberg (Ohm) und Kirtorf.
+
+## Hintergrund
+
+Vor dem Hintergrund des Rückgangs von Insekten in Deutschland rücken 'verfügbare Flächen' als zentrale Ressource für den Insektenschutz in den Fokus. Sogenannte 'Eh da'-Flächen – wirtschaftlich und naturschutzfachlich bislang ungenutzte, meist öffentliche Flächen – bieten hierfür ein erhebliches Potenzial.
+
+Die Webanwendung nutzt amtliche Geodaten, um solche Flächen zu identifizieren, räumlich zu analysieren und hinsichtlich ihrer Bedeutung für die (Biotop-)Vernetzung zu bewerten. Hierfür werden unter anderem Methoden und Pakete aus der Programmiersprache R (z. B. Distanz- und Konnektivitätsanalysen) eingesetzt.
+
+Ziel ist es, Flächen zu priorisieren und Maßnahmen zur ökologischen Aufwertung effektiv zu planen. Die Webanwendung wird in einer hessischen Modellregion erprobt, in der ausgewählte Maßnahmen umgesetzt und durch begleitende Erhebungen dokumentiert werden.
+
+Ergebnisse können in gängigen Geodatenformaten exportiert und in bestehende Systeme integriert werden. Das Webanwendung ist als Open-Source-Anwendung konzipiert, sodass eine Übertragbarkeit auf andere Kommunen gewährleistet ist. 
 
 ### A. SOFTWARE-FRAMEWORK
 
@@ -11,10 +21,9 @@ Die Anwendung dient der Unterstützung von Planungsprozessen zur ökologischen A
 
 ### C. R-CODE
 
-
 -----
 
-Für Anregungen oder weiterführende Informationen kontaktieren Sie bitte den korrespondierenden Autor:
+Für Anregungen oder weiterführende Informationen kontaktieren Sie bitte:
 
 Dr. Lucas Streib \
 Diplom-Umweltwissenschaftler\
