@@ -15,7 +15,7 @@ Die entwickelte Webanwendung basiert auf dem Open-Source-Framework Shiny für di
 - **Visualisierung:** Interaktive Karten (WebGIS) zu Darstellung fachlicher im Projekt verwendeten Geodaten
 - **Analyse:** Planungswerkzeuge zur räumlichen Bewertung | Priorisierung von Potenzialflächen ('Eh da'-Flächen) für die ökologische Aufwertung über On-the-fly berechnete Netzwerke ('Luftlinien Distanz' oder 'Kosten Distanz' aus Landschaftsklassifikation)
 
-Die Ergebnisse können in gängigen Geodatenformaten Datenformaten exportiert und in bestehende GIS-Systeme  (z.B. von Naturschutz- oder Landwirtschaftsbehörden) integriert werden. Die Webanwendung wurde in der hessischen Modellregion erprobt, in der ausgewählte Maßnahmen umgesetzt und durch begleitende Erhebungen dokumentiert wurden. Sie ist als Open-Source-Lösung auf andere Kommunen übertragbar.
+Die Webanwendung wurde in der hessischen Modellregion erprobt, in der ausgewählte Maßnahmen umgesetzt und durch begleitende Erhebungen dokumentiert wurden. Der Quellcode ist Open Source und kann mit angepassten Eingangsdaten auf andere Kommunen oder Anwendungsfälle übertragen werden.
 
 ### A. SOFTWARE-FRAMEWORK
 
