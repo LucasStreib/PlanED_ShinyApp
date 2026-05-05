@@ -18,6 +18,10 @@ Die Webanwendung wurde in der hessischen Modellregion erprobt, in der ausgewähl
 
 ### A. SOFTWARE-FRAMEWORK
 
+Die Webanwendung basiert auf dem Open-Source-Webframework *Shiny* für die Programmiersprache *R* und nutzt eine Vielzahl etablierter *R*-Pakete (u. a. für interaktive Kartendarstellung, z. B. *Leaflet*). Zur Sicherstellung reproduzierbarer Umgebungen wird das Paketmanagement mit *renv* eingesetzt, wodurch Abhängigkeiten und Paketversionen konsistent verwaltet werden können.
+
+Das Hosting erfolgt containerbasiert über die OpenShift-Plattform des Landesbetriebs Daten und Information (LDI) Rheinland-Pfalz. 
+
 ### B. INPUT-DATEN
 
 ### C. R-CODE
