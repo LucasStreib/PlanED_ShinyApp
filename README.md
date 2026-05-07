@@ -24,6 +24,9 @@ Die Webanwendung wird als Docker-Container auf der OpenShift-Plattform des Lande
 
 ### B. INPUT-DATEN
 
+Die für die Webanwendung erforderlichen Daten können unter diesem [Link](https://dlr-web-daten2.aspdienste.de/public/planed/PlanED_DataRShiny.zip) herruntergeladen werde.
+Die ZIP-Datei enthält die für die Shiny-App benötigten Geodaten, Tabellendaten und Bilder, strukturiert in entsprechenden Unterordnern.
+
 ### C. R-CODE
 
 -----
