@@ -22,7 +22,7 @@ Die Webanwendung basiert auf dem Open-Source-Webframework [`Shiny`](https://shin
 
 Die Webanwendung wird als Docker-Container auf der OpenShift-Plattform des Landesbetriebs Daten und Information (LDI) Rheinland-Pfalz gehostet.
 
-### B. INPUT-DATEN
+### B. INPUT-DATEN & R-PAKETUMGEBUNG
 
 Die für die Webanwendung erforderlichen Dateien können unter diesem [Link](https://dlr-web-daten2.aspdienste.de/public/planed/PlanED_DataRShiny.zip) heruntergeladen werden. Die ZIP-Datei enthält die für die Shiny-App benötigten Geodaten, Tabellendaten und Bilder, strukturiert in entsprechenden Unterordnern, sowie die zentralen Dateien der Shiny-Anwendung (`global.R`, `server.R`, `ui.R`), das `www`-Verzeichnis und die für die reproduzierbare Paketverwaltung mit [`renv`](https://rstudio.github.io/renv/) erforderlichen Dateien (`renv.lock`, `renv/`, `.Rprofile`).
 
