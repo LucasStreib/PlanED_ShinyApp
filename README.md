@@ -24,16 +24,22 @@ Die Webanwendung wird als Docker-Container auf der OpenShift-Plattform des Lande
 
 #### INPUT-DATEN, R-PAKETUMGEBUNG & -CODE
 
-Die für die Webanwendung erforderlichen Dateien können unter diesem [Link](https://dlr-web-daten2.aspdienste.de/public/planed/PlanED_DataRShiny.zip) heruntergeladen werden. Die ZIP-Datei enthält die für die Shiny-App benötigten Geodaten, Tabellendaten und Bilder, strukturiert in entsprechenden Unterordnern, sowie die zentralen R-Skripte der Shiny-Anwendung ([`global.R`](https://shiny.posit.co/r/articles/build/app-formats/#server.r-and-ui.r), [`server.R`](https://shiny.posit.co/r/articles/build/app-formats/#server.r-and-ui.r), [`ui.R`](https://shiny.posit.co/r/articles/improve/scoping/#scoping)), das [`www`-Verzeichnis](https://shiny.posit.co/r/articles/build/css/#other-methods) und die für die reproduzierbare Paketverwaltung mit [`renv`](https://rstudio.github.io/renv/) erforderlichen Dateien (`renv.lock`, `renv/`, `.Rprofile`).
+Die für die Webanwendung erforderlichen Dateien können unter diesem [Link](https://dlr-web-daten2.aspdienste.de/public/planed/PlanED_DataRShiny.zip) heruntergeladen werden. Die ZIP-Datei enthält die für die Shiny-App benötigten Geodaten, Tabellendaten und Bilder, strukturiert in entsprechenden Unterordnern, sowie das [`www`-Verzeichnis](https://shiny.posit.co/r/articles/build/css/#other-methods) und die für die reproduzierbare Paketverwaltung mit [`renv`](https://rstudio.github.io/renv/) erforderlichen Dateien (`renv.lock`, `renv/`, `.Rprofile`). Die zentralen R-Skripte der Shiny-Anwendung – [`global.R`](https://shiny.posit.co/r/articles/build/app-formats/#server.r-and-ui.r), [`server.R`](https://shiny.posit.co/r/articles/build/app-formats/#server.r-and-ui.r) und [`ui.R`](https://shiny.posit.co/r/articles/improve/scoping/#scoping) – sind zusätzlich zur ZIP-Datei als kommentierter Quellcode direkt im Repository verfügbar. Zusätzlich enthält die ZIP-Datei ein [`Dockerfile`](https://docs.docker.com/build/concepts/dockerfile/), mit dem ein Docker-Container zur Bereitstellung und Ausführung der Webanwendung erstellt werden kann. 
 
-Nach dem Entpacken der Dateien kann die benötigte R-Paketumgebung mit folgenden `renv`-Befehlen initialisiert werden:
+Nach dem Entpacken der ZIP-Datei kann die benötigte R-Paketumgebung mit folgenden `renv`-Befehlen initialisiert werden:
 
 ```r
 install.packages("renv")
 renv::restore()
 ```
 
-Zusätzlich enthält die ZIP-Datei ein [`Dockerfile`](https://docs.docker.com/build/concepts/dockerfile/), mit dem ein Docker-Container zur Bereitstellung und Ausführung der Webanwendung erstellt werden kann. 
+Anschließend kann die Shiny-Anwendung lokal in R (RStudio oder R-Konsole) gestartet werden:
+
+```r
+shiny::runApp()
+```
+
+Alternativ kann die Anwendung containerbasiert über das bereitgestellte Dockerfile ausgeführt werden. 
 
 ──────────
 
