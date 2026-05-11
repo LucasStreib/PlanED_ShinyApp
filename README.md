@@ -4,7 +4,7 @@ Dieses Repository enthält das Software-Framework, die Input-Daten sowie den R-C
 
 Interaktive Shiny-Webanwendung zur Unterstüzung von Planungsprozessen zur ökologischen Aufwertung von 'Eh da'-Flächen (Identifikation, Analyse & Priorisierung) auf Landschaftsebene in einer hessischen Modellregion, bestehend aus den Städten Homberg (Ohm) und Kirtorf.
 
-## Projektkontext
+## PROJEKTKONTEXT
 
 Aufgrund des Insektenrückgangs in Deutschland rücken verfügbare Flächen als zentrale Ressource für den Insektenschutz in den Fokus, da sie ein bislang wenig genutztes Potenzial zur gezielten Schaffung und Vernetzung von Lebensräumen auf Landschaftsebene bieten. Sogenannte 'Eh da'-Flächen – meist kommunale, wirtschaftlich und naturschutzfachlich ungenutzte Flächen – sind hierfür besonders geeignet, und wurden auf Basis amtlicher Geodaten für die Modellregion identifiziert.
 
@@ -14,15 +14,15 @@ Die entwickelte Webanwendung basiert auf dem Open-Source-Framework Shiny für di
 - **Visualisierung:** Interaktive Karten (WebGIS) zu Darstellung fachlicher im Projekt verwendeten Geodaten
 - **Analyse:** Planungswerkzeuge zur räumlichen Bewertung | Priorisierung von Potenzialflächen ('Eh da'-Flächen) für die ökologische Aufwertung über On-the-fly berechnete Netzwerke ('Luftlinien Distanz' oder 'Kosten Distanz' aus Landschaftsklassifikation)
 
-Die Webanwendung wurde in der hessischen Modellregion erprobt, in der ausgewählte Maßnahmen umgesetzt und durch begleitende Erhebungen dokumentiert wurden. Der Quellcode ist Open Source und kann mit angepassten Eingangsdaten auf andere Kommunen oder Anwendungsfälle übertragen werden.
+Die Webanwendung wurde in der hessischen Modellregion erprobt, in der ausgewählte Maßnahmen umgesetzt und durch begleitende Erhebungen dokumentiert wurden. Der Quellcode ist Open Source und kann mit angepassten Daten auf andere Kommunen oder Anwendungsfälle übertragen werden.
 
-### A. SOFTWARE-FRAMEWORK
+## SOFTWARE-FRAMEWORK 
 
 Die Webanwendung basiert auf dem Open-Source-Webframework [`Shiny`](https://shiny.posit.co/) für die Programmiersprache [`R`](https://www.r-project.org/) und nutzt eine Vielzahl etablierter *R*-Pakete (z. B. [`leaflet`](https://rstudio.github.io/leaflet/) für interaktive Kartendarstellung). Zur Sicherstellung reproduzierbarer Umgebungen wird das Paketmanagement mit [`renv`](https://rstudio.github.io/renv/) eingesetzt, wodurch Abhängigkeiten und Paketversionen konsistent verwaltet werden können.
 
 Die Webanwendung wird als Docker-Container auf der OpenShift-Plattform des Landesbetriebs Daten und Information (LDI) Rheinland-Pfalz gehostet.
 
-### B. INPUT-DATEN & R-PAKETUMGEBUNG
+#### INPUT-DATEN, R-PAKETUMGEBUNG & -CODE
 
 Die für die Webanwendung erforderlichen Dateien können unter diesem [Link](https://dlr-web-daten2.aspdienste.de/public/planed/PlanED_DataRShiny.zip) heruntergeladen werden. Die ZIP-Datei enthält die für die Shiny-App benötigten Geodaten, Tabellendaten und Bilder, strukturiert in entsprechenden Unterordnern, sowie die zentralen R-Skripte der Shiny-Anwendung ([`global.R`](https://shiny.posit.co/r/articles/build/app-formats/#server.r-and-ui.r), [`server.R`](https://shiny.posit.co/r/articles/build/app-formats/#server.r-and-ui.r), [`ui.R`](https://shiny.posit.co/r/articles/improve/scoping/#scoping)), das [`www`-Verzeichnis](https://shiny.posit.co/r/articles/build/css/#other-methods) und die für die reproduzierbare Paketverwaltung mit [`renv`](https://rstudio.github.io/renv/) erforderlichen Dateien (`renv.lock`, `renv/`, `.Rprofile`).
 
@@ -32,9 +32,8 @@ Nach dem Entpacken der Dateien kann die benötigte R-Paketumgebung mit folgenden
 install.packages("renv")
 renv::restore()
 ```
-Zusätzlich enthält die ZIP-Datei ein [`Dockerfile`](https://docs.docker.com/build/concepts/dockerfile/), mit dem ein Docker-Container zur Bereitstellung und Ausführung der Webanwendung erstellt werden kann.  
 
-### C. R-CODE
+Zusätzlich enthält die ZIP-Datei ein [`Dockerfile`](https://docs.docker.com/build/concepts/dockerfile/), mit dem ein Docker-Container zur Bereitstellung und Ausführung der Webanwendung erstellt werden kann. 
 
 -----
 
