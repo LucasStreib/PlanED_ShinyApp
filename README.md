@@ -32,6 +32,7 @@ Nach dem Entpacken der Dateien kann die benötigte R-Paketumgebung mit folgenden
 install.packages("renv")
 renv::restore()
 ```
+Zusätzlich enthält die ZIP-Datei ein `Dockerfile`, mit dem ein Docker-Container zur Bereitstellung und Ausführung der Webanwendung erstellt werden kann.  
 
 ### C. R-CODE
 
