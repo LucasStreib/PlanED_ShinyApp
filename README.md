@@ -35,7 +35,7 @@ renv::restore()
 
 Zusätzlich enthält die ZIP-Datei ein [`Dockerfile`](https://docs.docker.com/build/concepts/dockerfile/), mit dem ein Docker-Container zur Bereitstellung und Ausführung der Webanwendung erstellt werden kann. 
 
------
+──────────
 
 Für weiterführende Informationen, Anregungen oder Fragen kontaktieren Sie bitte:
 
