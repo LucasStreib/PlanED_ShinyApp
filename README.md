@@ -1,4 +1,4 @@
-Dieses Repository enthält das Software-Framework, die Input-Daten sowie den R-Code für eine interaktive Shiny-Webanwendung, die im Rahmen des DBU-Projekts 38150-01 entwickelt wurde:
+Dieses Repository enthält das Software-Framework, die Input-Daten sowie den R-Code für eine interaktive Shiny-Webanwendung, die im Rahmen des DBU-Projekts [38150-01](www.dbu.de/projektdatenbank/38150-01/) entwickelt wurde:
 
 ## **PlanED – Entwicklung und Anwendung digitaler Planungswerkzeuge für ökologische Aufwertungsmaßnahmen von 'Eh da'-Flächen auf Landschaftsebene am Beispiel einer Modellregion**
 
@@ -18,7 +18,7 @@ Die Webanwendung wurde in der hessischen Modellregion erprobt, in der ausgewähl
 
 ### A. SOFTWARE-FRAMEWORK
 
-Die Webanwendung basiert auf dem Open-Source-Webframework *Shiny* für die Programmiersprache *R* und nutzt eine Vielzahl etablierter *R*-Pakete (u. a. für interaktive Kartendarstellung, z. B. *Leaflet*). Zur Sicherstellung reproduzierbarer Umgebungen wird das Paketmanagement mit *renv* eingesetzt, wodurch Abhängigkeiten und Paketversionen konsistent verwaltet werden können.
+Die Webanwendung basiert auf dem Open-Source-Webframework [`Shiny`](https://shiny.posit.co/) für die Programmiersprache [`R`](https://www.r-project.org/) und nutzt eine Vielzahl etablierter *R*-Pakete (z. B. [`leaflet`](https://rstudio.github.io/leaflet/) für interaktive Kartendarstellung). Zur Sicherstellung reproduzierbarer Umgebungen wird das Paketmanagement mit [`renv`](https://rstudio.github.io/renv/) eingesetzt, wodurch Abhängigkeiten und Paketversionen konsistent verwaltet werden können.
 
 Die Webanwendung wird als Docker-Container auf der OpenShift-Plattform des Landesbetriebs Daten und Information (LDI) Rheinland-Pfalz gehostet.
 
@@ -38,7 +38,7 @@ Zusätzlich enthält die ZIP-Datei ein `Dockerfile`, mit dem ein Docker-Containe
 
 -----
 
-Für Anregungen oder weiterführende Informationen kontaktieren Sie bitte:
+Für weiterführende Informationen, Anregungen oder Fragen kontaktieren Sie bitte:
 
 Dr. Lucas Streib \
 Diplom-Umweltwissenschaftler 
