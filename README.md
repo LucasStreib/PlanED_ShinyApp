@@ -24,8 +24,14 @@ Die Webanwendung wird als Docker-Container auf der OpenShift-Plattform des Lande
 
 ### B. INPUT-DATEN
 
-Die für die Webanwendung erforderlichen Daten können unter diesem [Link](https://dlr-web-daten2.aspdienste.de/public/planed/PlanED_DataRShiny.zip) herruntergeladen werde.
-Die ZIP-Datei enthält die für die Shiny-App benötigten Geodaten, Tabellendaten und Bilder, strukturiert in entsprechenden Unterordnern.
+Die für die Webanwendung erforderlichen Dateien können unter diesem [Link](https://dlr-web-daten2.aspdienste.de/public/planed/PlanED_DataRShiny.zip) heruntergeladen werden. Die ZIP-Datei enthält die für die Shiny-App benötigten Geodaten, Tabellendaten und Bilder, strukturiert in entsprechenden Unterordnern, sowie die zentralen Dateien der Shiny-Anwendung (`global.R`, `server.R`, `ui.R`), das `www`-Verzeichnis und die für die reproduzierbare Paketverwaltung mit [`renv`](https://rstudio.github.io/renv/) erforderlichen Dateien (`renv.lock`, `renv/`, `.Rprofile`).
+
+Nach dem Entpacken der Dateien kann die benötigte R-Paketumgebung mit folgenden `renv`-Befehlen initialisiert werden:
+
+```r
+install.packages("renv")
+renv::restore()
+```
 
 ### C. R-CODE
 
